@@ -6,8 +6,6 @@ const checkRole = require('../controller/checkroles');
 const flash = require('connect-flash')
 
 
-
-
 userRoute.post('/user/singup',Usersign.singup);
 
 userRoute.post('/user/login',(req,res,next)=> {	
